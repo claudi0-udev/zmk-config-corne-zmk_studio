@@ -1,9 +1,50 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, Lower, SPACE, RET,
-    Raise, RALT]
-  Lower:
-  - TAB
+  BASE:
+  - {t: TAB, h: Ctl+Sft+ LALT}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - LSHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT ALT
+  - LEFT GUI
+  - NAV
+  - BSPC
+  - SPACE
+  - SYMBOLS
+  - ENTER
+  SYMBOLS:
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -14,39 +55,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {type: held}
-  - SPACE
-  - RET
-  - {t: ▽, type: trans}
-  - RALT
-  Raise:
-  - TAB
+  - ESC
   - '!'
   - '@'
   - '#'
@@ -54,37 +64,120 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
-  - BSPC
-  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
+  - '`'
+  - '~'
+  - '|'
   - '='
+  - +
   - '['
   - ']'
-  - \
-  - '`'
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
   - '{'
   - '}'
-  - '|'
-  - '~'
-  - LGUI
+  - \
   - {t: ▽, type: trans}
-  - SPACE
-  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - RALT
+  - {t: ▽, type: trans}
+  NAV:
+  - Gui+Ctl+ TAB
+  - {t: ▽, type: trans}
+  - Gui+ [
+  - Sft+ TAB
+  - TAB
+  - Gui+ ]
+  - Alt+ LEFT
+  - Alt+ DOWN
+  - Alt+ UP
+  - Alt+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SCROLL DOWN
+  - SCROLL UP
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - Gui+ LEFT
+  - Gui+ DOWN
+  - Gui+ UP
+  - Gui+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+ SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  EXT:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F12
+  - PP
+  - PREV
+  - NEXT
+  - MUTE
+  - VOL DN
+  - VOL UP
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+combos:
+- p: [0, 38, 5]
+  k: BT CLR
+- p: [29, 28]
+  k: SPACE
+- p: [17, 16]
+  k: ENTER
+- p: [5, 6]
+  k: CLCK
