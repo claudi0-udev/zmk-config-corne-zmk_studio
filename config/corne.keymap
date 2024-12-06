@@ -52,7 +52,7 @@
       key-positions = <5 6>;
     };
   };
-
+/*
   macros {
     git_status: git_status {
       compatible = "zmk,behavior-macro";
@@ -67,7 +67,7 @@
       label = "GIT_COMMIT";
     };
   };
-
+*/
   keymap {
     compatible = "zmk,keymap";
 
