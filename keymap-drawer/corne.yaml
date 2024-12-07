@@ -38,10 +38,10 @@ layers:
   - /
   - DEL
   - {t: TAB, h: LEFT ALT}
-  - NAV
+  - SYMBOLS
   - SPACE
   - ENTER
-  - SYMBOLS
+  - NAV
   - ENTER
   SYMBOLS:
   - F1
@@ -81,10 +81,10 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - EXT
   - {t: ▽, type: trans}
   NAV:
   - Gui+Ctl+ TAB
@@ -124,10 +124,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - EXT
   - {t: ▽, type: trans}
   - Ctl+Gui+ SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   EXT:
   - {t: ▽, type: trans}
