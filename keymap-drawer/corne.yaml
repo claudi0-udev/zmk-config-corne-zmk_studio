@@ -1,7 +1,48 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  BASE: [ESCAPE, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL, Z, X, C, V, B, N, M, ',', ., /, DEL, LEFT GUI,
-    NAV, BSPC, SPACE, SYMBOLS, ENTER]
+  BASE:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACKSPACE
+  - LSHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - DEL
+  - {t: TAB, h: LEFT ALT}
+  - NAV
+  - SPACE
+  - ENTER
+  - SYMBOLS
+  - ENTER
   SYMBOLS:
   - {t: ▽, type: trans}
   - '1'
@@ -15,17 +56,17 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - ESC
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
@@ -60,7 +101,7 @@ layers:
   - {t: ▽, type: trans}
   - ESC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - SCROLL DOWN
   - SCROLL UP
   - {t: ▽, type: trans}
@@ -71,9 +112,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - PG DN
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - PG UP
   - END
   - Gui+ LEFT
