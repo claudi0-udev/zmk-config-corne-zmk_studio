@@ -78,7 +78,7 @@
 &kp ESCAPE        &kp Q  &kp W  &kp E             &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
 &kp LSHIFT        &kp A  &kp S  &kp D             &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI   &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp DEL
-                                &mt LEFT_ALT TAB  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp ENTER
+                                &mt LEFT_ALT TAB  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp ENTER
             >;
         };
 
@@ -88,7 +88,7 @@
 &kp F1  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6      &kp F7            &kp F8             &kp F9          &kp F10          &kp F11        &kp F12
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6      &kp N7             &kp N8          &kp N9           &kp NUMBER_0   &trans
 &trans  &kp GRAVE     &kp TILDE     &kp PIPE      &kp EQUAL     &kp PLUS    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &trans
-                                    &trans        &trans        &trans      &trans            &trans             &trans
+                                    &trans        &trans        &trans      &trans            &mo 3              &trans
             >;
         };
 
@@ -98,7 +98,7 @@
 &kp LG(LC(TAB))  &trans    &kp LG(LEFT_BRACKET)  &kp LS(TAB)        &kp TAB          &kp LG(RIGHT_BRACKET)    &kp LA(LEFT)       &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &trans  &trans
 &kp ESC          &trans    &kp UP_ARROW          &kp K_SCROLL_DOWN  &kp K_SCROLL_UP  &trans                   &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
 &trans           &kp LEFT  &kp DOWN_ARROW        &kp RIGHT          &kp PG_UP        &kp END                  &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &trans  &trans
-                                                 &trans             &trans           &trans                   &kp LC(LG(SPACE))  &trans        &trans
+                                                 &trans             &mo 3            &trans                   &kp LC(LG(SPACE))  &trans        &trans
             >;
         };
 
