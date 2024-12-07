@@ -38,12 +38,12 @@ layers:
   - /
   - DEL
   - {t: TAB, h: LEFT ALT}
-  - SYMBOLS
+  - FX
   - SPACE
   - ENTER
-  - NAV
+  - SYMBOLS
   - ENTER
-  SYMBOLS:
+  FX:
   - F1
   - F2
   - F3
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - EXT
   - {t: ▽, type: trans}
-  NAV:
+  SYMBOLS:
   - Gui+Ctl+ TAB
   - {t: ▽, type: trans}
   - Gui+ [
