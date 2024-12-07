@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - EXT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYMBOLS:
   - Gui+Ctl+ TAB
@@ -124,9 +124,9 @@ layers:
   - '|'
   - '~'
   - {t: ▽, type: trans}
-  - EXT
   - {t: ▽, type: trans}
-  - Ctl+Gui+ SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   EXT:
