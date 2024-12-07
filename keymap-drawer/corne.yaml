@@ -150,8 +150,8 @@ layers:
   - VOL UP
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - EP ON
+  - EP OFF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
