@@ -163,7 +163,7 @@ layers:
   - BT CLR ALL
   - RGB BRD
   - RGB BRI
-  - '&reset'
+  - '&sys_reset'
   - RGB ON
   - RGB SAD
   - {t: ▽, type: trans}
