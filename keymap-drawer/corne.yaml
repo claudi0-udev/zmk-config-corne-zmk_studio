@@ -152,7 +152,7 @@ layers:
   - BRIGHTNESS INC
   - EP ON
   - EP OFF
-  - {t: ▽, type: trans}
+  - RGB OFF
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
@@ -164,7 +164,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB ON
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
