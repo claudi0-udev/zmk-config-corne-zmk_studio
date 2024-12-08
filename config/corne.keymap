@@ -107,8 +107,8 @@
             label = "EXT";
             bindings = <
 &trans    &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp F3        &kp F4        &kp F5          &kp F6                &kp F7                &kp F8            &kp F9             &kp F10          &kp F12
-&kp K_PP  &kp K_PREV       &kp K_NEXT       &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_OFF  &trans
-&trans    &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR_ALL        &rgb_ug RGB_BRD       &rgb_ug RGB_BRI   &trans             &rgb_ug RGB_ON   &trans
+&kp K_PP  &kp K_PREV       &kp K_NEXT       &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &ext_power EP_ON  &ext_power EP_OFF  &rgb_ug RGB_OFF  &rgb_ug RGB_SAI
+&trans    &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_CLR_ALL        &rgb_ug RGB_BRD       &rgb_ug RGB_BRI   &trans             &rgb_ug RGB_ON   &rgb_ug RGB_SAD
                                             &trans        &trans        &trans          &trans                &trans                &trans
             >;
         };
