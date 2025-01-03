@@ -87,15 +87,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYMBOLS:
-  - Gui+Ctl+ TAB
-  - {t: ▽, type: trans}
-  - Gui+ [
-  - Sft+ TAB
-  - TAB
-  - Gui+ ]
-  - Alt+ LEFT
-  - Alt+ DOWN
-  - Alt+ UP
+  - ESCAPE
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - LCTRL
+  - '&'
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
