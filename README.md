@@ -1,17 +1,5 @@
 # Corne ZMK config
 
-## Resources
-- [Default corne config](https://github.com/zmkfirmware/zmk/blob/main/app/boards/shields/corne/corne.conf)
-- [Corne Cherry v3 build guide](https://github.com/foostan/crkbd/blob/main/corne-cherry/doc/v3/buildguide_en.md)
-- [CORNE BUILD GUIDE by devpew](https://devpew.com/blog/corne-eng/)
-
-## My Corne Cherry v3 setup
-- ✅ [Corne Cherry v3 board](https://kriscables.com/product/corne-cherry-kit/)
-- ✅ [nice!nano V2 Wireless Controller](https://kriscables.com/product/nicenano/)
-- ✅ [OLED Display Module 0.91″ 128×32](https://kriscables.com/product/oled-display/)
-- ✅ [SK6812 MINI-E RGB LEDs 3535 for backlight](https://kriscables.com/product/sk6812mini-e-rgb-leds/)
-- ✅ [WS2812B RGB LEDs 5050 for underglow](https://kriscables.com/product/ws2812b-rgb-led/)
-
 ## Tool
 - [ZMK](https://zmk.dev/)
 - [Keymap editor web](https://nickcoutsos.github.io/keymap-editor/)
