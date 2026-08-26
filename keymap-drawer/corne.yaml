@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   layer0:
   - ESCAPE
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - RIGHT ALT
   layer3:
-  - ''
+  - '&studio_unlock'
   - VOLUME DOWN
   - VOLUME UP
   - PLAY PAUSE
