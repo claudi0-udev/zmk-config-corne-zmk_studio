@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  layer0:
+  QWERTY:
   - ESCAPE
   - Q
   - W
@@ -38,12 +38,12 @@ layers:
   - /
   - DELETE
   - {t: TAB, h: LEFT ALT}
-  - layer1
+  - LOWER
   - SPACE
   - ENTER
-  - layer2
+  - RAISE
   - ''
-  layer1:
+  LOWER:
   - F1
   - F2
   - F3
@@ -84,9 +84,9 @@ layers:
   - {type: held}
   - SPACE
   - ENTER
-  - layer3
+  - ADJUST
   - RIGHT ALT
-  layer2:
+  RAISE:
   - ESCAPE
   - ''
   - ''
@@ -124,12 +124,12 @@ layers:
   - ''
   - ''
   - TAB
-  - layer3
+  - ADJUST
   - SPACE
   - ENTER
   - {type: held}
   - RIGHT ALT
-  layer3:
+  ADJUST:
   - '&studio_unlock'
   - VOLUME DOWN
   - VOLUME UP
