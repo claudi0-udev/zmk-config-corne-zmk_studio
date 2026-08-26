@@ -136,7 +136,7 @@ layers:
   - RGB EFR
   - RGB SPI
   - RGB SPD
-  - EP TOG
+  - ''
   - VOLUME DOWN
   - VOLUME UP
   - PLAY PAUSE
