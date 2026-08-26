@@ -131,41 +131,41 @@ layers:
   - RIGHT ALT
   ADJUST:
   - '&studio_unlock'
+  - RGB TOG
+  - RGB EFF
+  - RGB EFR
+  - RGB SPI
+  - RGB SPD
+  - EP TOG
   - VOLUME DOWN
   - VOLUME UP
   - PLAY PAUSE
   - PREVIOUS
   - NEXT
-  - EP TOG
   - ''
-  - ''
-  - PRINTSCREEN
-  - SCROLLLOCK
-  - PAUSE BREAK
-  - ''
-  - ''
-  - ''
-  - ''
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
   - ''
   - BRIGHTNESS INC
-  - ''
-  - ''
   - ''
   - INSERT
   - HOME
   - PAGE UP
+  - PRINTSCREEN
+  - SCROLLLOCK
   - ''
-  - ''
-  - ''
-  - ''
+  - RGB HUD
+  - RGB SAD
+  - RGB BRD
   - ''
   - BRIGHTNESS DEC
-  - ''
-  - ''
   - ''
   - DELETE
   - END
   - PAGE DOWN
+  - PAUSE BREAK
+  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - SPACE
