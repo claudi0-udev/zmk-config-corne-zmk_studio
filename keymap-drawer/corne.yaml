@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - SPACE
   - ENTER
-  - ADJUST
+  - {t: ▽, type: trans}
   - RIGHT ALT
   RAISE:
   - ESCAPE
@@ -123,8 +123,8 @@ layers:
   - ''
   - ''
   - ''
-  - TAB
-  - ADJUST
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - SPACE
   - ENTER
   - {type: held}
